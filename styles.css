@@ -8,7 +8,6 @@ body{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
-    
 }
 
 .feature-card{
@@ -17,6 +16,11 @@ body{
     border-radius: 5px;
     width: 300px;
     padding: 20px;
+}
+
+.feature-card:hover{
+    box-shadow: 0 0 10px 0 rgb(168, 168, 25);
+    border-color: rgb(168, 168, 25);;
 }
 
 input[type="checkbox"]{
@@ -42,6 +46,6 @@ input[type="checkbox"]:checked::after {
 }
 
 input[type="checkbox"]:checked{
-    background-color: red;
-    border-color: red;
+    background-color: rgb(168, 168, 25);
+    border-color: rgb(168, 168, 25);
 }
